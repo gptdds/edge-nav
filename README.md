@@ -10,7 +10,7 @@
 
 ## 安装
 
-1. 在 [Releases](https://github.com/sdgfdii/edge-nav/releases/latest) 下载 `edge-nav-extension.zip` 并解压，或下载本仓库源码。
+1. 在 [Releases](https://github.com/gptdds/edge-nav/releases/latest) 下载 `edge-nav-extension.zip` 并解压，或下载本仓库源码。
 2. 打开 `edge://extensions` 或 `chrome://extensions`，启用「开发人员模式」。
 3. 选择「加载解压缩的扩展」，选中包含 `manifest.json` 的 **`extension` 文件夹**。
 4. 按 `Ctrl+T` 打开新标签页。
@@ -99,4 +99,4 @@ UI 测试只使用虚构数据，覆盖搜索真实提交、网址直达、引�
 
 ## 许可证
 
-[MIT](LICENSE) © 2026 sdgfdii。界面为独立实现，不包含 Apple 的标志、图片或专有字体文件，与 Apple 无关联。
+[MIT](LICENSE) © 2026 gptdds。界面为独立实现，不包含 Apple 的标志、图片或专有字体文件，与 Apple 无关联。
