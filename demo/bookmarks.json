@@ -1,0 +1,150 @@
+{
+  "checksum": "demo",
+  "version": 1,
+  "roots": {
+    "bookmark_bar": {
+      "type": "folder",
+      "name": "书签栏",
+      "children": [
+        {
+          "type": "folder",
+          "name": "事务",
+          "children": [
+            {
+              "type": "folder",
+              "name": "邮箱",
+              "children": [
+                { "type": "url", "name": "Gmail", "url": "https://mail.google.com/mail/u/0/" },
+                { "type": "url", "name": "Outlook", "url": "https://outlook.live.com/mail/0/" },
+                { "type": "url", "name": "QQ 邮箱", "url": "https://mail.qq.com/" }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "文档",
+              "children": [
+                { "type": "url", "name": "Google Docs", "url": "https://docs.google.com/document/u/0/" },
+                { "type": "url", "name": "Notion", "url": "https://www.notion.so/" },
+                { "type": "url", "name": "语雀", "url": "https://www.yuque.com/dashboard" },
+                { "type": "url", "name": "飞书文档", "url": "https://www.feishu.cn/product/docs" }
+              ]
+            },
+            {
+              "type": "url",
+              "name": "Google 日历",
+              "url": "https://calendar.google.com/calendar/u/0/r"
+            },
+            { "type": "url", "name": "Google Drive", "url": "https://drive.google.com/drive/my-drive" },
+            { "type": "url", "name": "Trello", "url": "https://trello.com/boards" },
+            { "type": "url", "name": "Wetransfer", "url": "https://wetransfer.com/" }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "娱乐",
+          "children": [
+            {
+              "type": "folder",
+              "name": "视频",
+              "children": [
+                { "type": "url", "name": "YouTube", "url": "https://www.youtube.com/" },
+                { "type": "url", "name": "哔哩哔哩", "url": "https://www.bilibili.com/" },
+                { "type": "url", "name": "Netflix", "url": "https://www.netflix.com/browse" },
+                { "type": "url", "name": "Twitch", "url": "https://www.twitch.tv/" }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "音乐",
+              "children": [
+                { "type": "url", "name": "网易云音乐", "url": "https://music.163.com/" },
+                { "type": "url", "name": "Spotify", "url": "https://open.spotify.com/" },
+                { "type": "url", "name": "Bandcamp", "url": "https://bandcamp.com/" }
+              ]
+            },
+            { "type": "url", "name": "豆瓣", "url": "https://www.douban.com/" },
+            { "type": "url", "name": "Steam", "url": "https://store.steampowered.com/" },
+            { "type": "url", "name": "Reddit", "url": "https://www.reddit.com/" }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "学习",
+          "children": [
+            { "type": "url", "name": "MDN Web Docs", "url": "https://developer.mozilla.org/zh-CN/" },
+            { "type": "url", "name": "Stack Overflow", "url": "https://stackoverflow.com/" },
+            { "type": "url", "name": "知乎", "url": "https://www.zhihu.com/" },
+            { "type": "url", "name": "Coursera", "url": "https://www.coursera.org/" },
+            { "type": "url", "name": "W3Schools", "url": "https://www.w3schools.com/" },
+            { "type": "url", "name": "掘金", "url": "https://juejin.cn/" },
+            { "type": "url", "name": "维基百科", "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" },
+            { "type": "url", "name": "arXiv", "url": "https://arxiv.org/" },
+            { "type": "url", "name": "MIT OpenCourseWare", "url": "https://ocw.mit.edu/" }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "工具",
+          "children": [
+            {
+              "type": "folder",
+              "name": "开发",
+              "children": [
+                { "type": "url", "name": "GitHub", "url": "https://github.com/" },
+                { "type": "url", "name": "GitLab", "url": "https://gitlab.com/" },
+                { "type": "url", "name": "Vercel", "url": "https://vercel.com/dashboard" },
+                { "type": "url", "name": "npm", "url": "https://www.npmjs.com/" },
+                { "type": "url", "name": "Can I use", "url": "https://caniuse.com/" },
+                { "type": "url", "name": "Regex101", "url": "https://regex101.com/" },
+                { "type": "url", "name": "Docker Hub", "url": "https://hub.docker.com/" },
+                { "type": "url", "name": "MDN HTTP", "url": "https://developer.mozilla.org/zh-CN/docs/Web/HTTP" }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "设计",
+              "children": [
+                { "type": "url", "name": "Figma", "url": "https://www.figma.com/files" },
+                { "type": "url", "name": "Dribbble", "url": "https://dribbble.com/" },
+                { "type": "url", "name": "Behance", "url": "https://www.behance.net/" },
+                { "type": "url", "name": "Google Fonts", "url": "https://fonts.google.com/" },
+                { "type": "url", "name": "Coolors", "url": "https://coolors.co/" },
+                { "type": "url", "name": "Unsplash", "url": "https://unsplash.com/" }
+              ]
+            },
+            { "type": "url", "name": "Google 翻译", "url": "https://translate.google.com/" },
+            { "type": "url", "name": "tinypng", "url": "https://tinypng.com/" },
+            { "type": "url", "name": "JSON 格式化", "url": "https://www.json.cn/" }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "ai",
+          "children": [
+            { "type": "url", "name": "ChatGPT", "url": "https://chat.openai.com/" },
+            { "type": "url", "name": "Claude", "url": "https://claude.ai/" },
+            { "type": "url", "name": "Gemini", "url": "https://gemini.google.com/app" },
+            { "type": "url", "name": "Hugging Face", "url": "https://huggingface.co/" },
+            { "type": "url", "name": "Perplexity", "url": "https://www.perplexity.ai/" },
+            { "type": "url", "name": "Midjourney", "url": "https://www.midjourney.com/" },
+            { "type": "url", "name": "DeepSeek", "url": "https://chat.deepseek.com/" },
+            { "type": "url", "name": "Ollama", "url": "https://ollama.com/library" }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "自律",
+          "children": [
+            { "type": "url", "name": "Habitica", "url": "https://habitica.com/" },
+            { "type": "url", "name": "RescueTime", "url": "https://www.rescuetime.com/dashboard" },
+            { "type": "url", "name": "Todoist", "url": "https://todoist.com/app/today" },
+            { "type": "url", "name": "番茄钟", "url": "https://pomofocus.io/" },
+            { "type": "url", "name": "Cold Turkey", "url": "https://getcoldturkey.com/" }
+          ]
+        }
+      ]
+    },
+    "other": { "type": "folder", "name": "其他书签", "children": [] },
+    "synced": { "type": "folder", "name": "移动设备书签", "children": [] }
+  }
+}

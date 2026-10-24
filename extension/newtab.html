@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f5f5f7">
+<title>书签导航 · 你的下一站</title>
+<link rel="stylesheet" href="newtab.css">
+<script src="ui.js" defer></script>
+<script src="newtab.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">跳到书签内容</a>
+<div class="app">
+  <aside class="side" id="sidebar" aria-label="书签分类">
+    <div class="brand">
+      <span class="brand-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 4.5h10a1 1 0 0 1 1 1V21l-6-4-6 4V5.5a1 1 0 0 1 1-1Z"/><path d="M9 2h11a1 1 0 0 1 1 1v14" opacity=".45"/></svg></span>
+      <div><div class="brand-name">书签导航</div><div class="brand-caption">A PLACE TO BEGIN</div></div>
+    </div>
+    <div class="searchbox">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg>
+      <input id="q" class="search" type="search" aria-label="搜索书签" placeholder="搜索你的书签" autocomplete="off" aria-keyshortcuts="/">
+      <kbd aria-hidden="true">/</kbd>
+    </div>
+    <div class="nav-label">我的收藏</div>
+    <nav class="tree" id="tree" aria-label="收藏夹目录"></nav>
+    <div class="foot">
+      <div class="privacy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m12 3 8 3v6c0 5-8 9-8 9S4 17 4 12V6l8-3Z"/><path d="m8 12 3 3 5-6"/></svg>你的收藏，只属于你。</div>
+      <div id="stat"></div>
+    </div>
+  </aside>
+  <button class="scrim" type="button" aria-label="关闭书签分类" tabindex="-1"></button>
+  <main class="main" id="main" tabindex="-1">
+    <header class="topbar">
+      <button class="menu-toggle" type="button" aria-label="打开书签分类" aria-controls="sidebar" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      <span class="topbar-name">你的浏览，从这里开始。</span>
+      <div class="topbar-right"><span class="live">本地收藏</span><a class="source-link" href="https://github.com/sdgfdii/edge-nav" target="_blank" rel="noopener noreferrer" aria-label="在 GitHub 查看开源项目">开源项目<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a></div>
+    </header>
+    <section class="hero" aria-labelledby="welcome">
+      <p class="eyebrow">少一点寻找，多一点发现</p>
+      <h2 class="hero-title" id="welcome">好去处，<span>一触即达。</span></h2>
+      <p class="hero-description">常去的网站，珍藏的灵感。让每一次出发，都井然有序。</p>
+      <div class="wswrap">
+        <form class="wsearch" id="ws" method="get" target="_self" action="https://www.bing.com/search" role="search" aria-label="网页搜索">
+          <select id="engine" aria-label="搜索引擎"></select>
+          <input id="wq" name="q" type="search" aria-label="搜索网页或输入网址" placeholder="用 Bing 搜索" autocomplete="off" spellcheck="false" required>
+          <button type="submit">搜索</button>
+        </form>
+        <div class="whist" id="whist" hidden></div>
+      </div>
+      <p class="search-tip">搜索世界，也可以直接输入网址。</p>
+    </section>
+    <div class="sticky">
+      <div class="head"><h1 id="title">全部书签</h1><div class="meta" id="count" role="status" aria-live="polite"></div></div>
+    </div>
+    <div id="body"></div>
+    <footer class="page-footer"><span>把值得的，留在眼前。</span><span><kbd>/</kbd> 查找书签 &nbsp; <kbd>esc</kbd> 退出搜索</span></footer>
+  </main>
+</div>
+</body>
+</html>

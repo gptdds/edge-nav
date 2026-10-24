@@ -1,0 +1,43 @@
+# ---------------- 私人数据：由本机浏览器书签生成，绝不进版本库 ----------------
+# index.html 是「书签数据 + 图标」的完整快照，一提交等于把你的全部收藏公开
+index.html
+icons_cache.json
+demo/index.html
+
+# 本机预览图（含真实书签名）。公开用的示例图在 docs/ 下
+shot_*.png
+
+# ---------------- 本机专用的安装 / 启动脚本 ----------------
+# 这几个写死了本机绝对路径与扩展 ID，只对这台机器有效
+auto_reinstall.py
+auto_reinstall.log
+重装扩展.cmd
+刷新导航.lnk
+make_shortcut.py
+
+# ---------------- 本地调试 / 诊断脚本 ----------------
+_*.py
+_debug*
+_probe*.html
+
+# ---------------- 工具与系统 ----------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+
+# Development dependencies, packages and superseded screenshots
+node_modules/
+release/
+docs/*-dark.png
+
+# Local CI configuration requires GitHub workflow scope to publish
+.github/workflows/check.yml

@@ -1,0 +1,12 @@
+{
+  "name": "edge-nav",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Local-first bookmark new tab for Chrome and Edge",
+  "scripts": {
+    "test": "node tests/ui.cjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.0"
+  }
+}

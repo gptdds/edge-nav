@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "书签导航",
+  "version": "1.1.0",
+  "description": "用浏览器收藏夹实时驱动的新标签页导航，新增书签自动出现，无需任何刷新。",
+  "permissions": ["bookmarks", "favicon", "history"],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
